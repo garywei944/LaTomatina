@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+ <asset>
+  <contributor>
+   <authoring_tool>SceneKit Collada Exporter v1.0</authoring_tool>
+  </contributor>
+  <created>2019-05-21T00:12:18Z</created>
+  <modified>2019-05-21T00:12:18Z</modified>
+  <unit meter="0.010000"/>
+  <up_axis>Y_UP</up_axis>
+ </asset>
+ <library_animations>
+  <animation id="Hips-Matrix-animation-transform" name="Hips-Matrix-animation-transform">
+   <animation id="keyframedAnimations1">
+    <source id="genericSource2">
+     <float_array id="Hips-Matrix-animation-transform3-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#Hips-Matrix-animation-transform3-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource4">
+     <float_array id="Hips-Matrix-animation-transform5-array" count="256">-0.039176 -0.277267 0.959994 0.00012 0.965451 -0.2582 -0.035175 91.4821 0.257624 0.925449 0.277802 -4.04526 0 0 0 1 -0.036341 -0.246235 0.968529 1.58064 0.958477 -0.282894 -0.035958 92.9516 0.282845 0.927006 0.246292 -3.3918 0 0 0 1 -0.02925 -0.175421 0.984059 2.92139 0.940682 -0.337753 -0.032248 97.2322 0.338026 0.924743 0.174895 -2.514 0 0 0 1 -0.014583 -0.090155 0.995821 3.75924 0.919405 -0.392692 -0.022088 100.667 0.393043 0.91524 0.088615 -1.63505 0 0 0 1 0.003833 -0.016755 0.999853 4.86567 0.907397 -0.420143 -0.010519 102.742 0.420257 0.907303 0.013593 -0.682913 0 0 0 1 0.025341 0.050973 0.998379 5.47204 0.913498 -0.406837 -0.002415 101.561 0.406055 0.912077 -0.056873 -0.483312 0 0 0 1 0.04746 0.123319 0.991232 4.92563 0.929498 -0.368825 0.001382 98.0808 0.365761 0.921282 -0.132129 -1.5756 0 0 0 1 0.062006 0.18024 0.981666 4.14515 0.944444 -0.328673 0.000691 92.8431 0.322772 0.927085 -0.190607 -3.19892 0 0 0 1 0.065657 0.201313 0.977324 3.29248 0.950713 -0.310073 1e-06 91.8838 0.303042 0.929154 -0.21175 -4.14319 0 0 0 1 0.05683 0.173013 0.983279 2.3414 0.946791 -0.321842 0.001909 92.7585 0.316791 0.930852 -0.182097 -3.66939 0 0 0 1 0.037092 0.108146 0.993443 0.967983 0.936321 -0.35113 0.003265 97.0141 0.34918 0.93006 -0.114283 -2.35938 0 0 0 1 0.010311 0.029038 0.999525 0.191831 0.922124 -0.386892 0.001727 101.023 0.386758 0.921668 -0.030766 -1.33018 0 0 0 1 -0.016678 -0.04176 0.998988 -0.576269 0.908261 -0.418398 -0.002327 102.601 0.418072 0.907304 0.044907 -0.77526 0 0 0 1 -0.03049 -0.132109 0.990766 -1.0495 0.932814 -0.359843 -0.019275 101.344 0.359066 0.923613 0.134205 -1.24278 0 0 0 1 -0.038812 -0.225764 0.973409 -0.901427 0.954656 -0.296131 -0.030618 94.8991 0.295169 0.928082 0.227021 -2.65283 0 0 0 1 -0.03944 -0.272233 0.961423 -0.196031 0.964403 -0.262157 -0.03467 91.7033 0.261482 0.925831 0.272882 -3.84225 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#Hips-Matrix-animation-transform5-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="Hips-Matrix-animation-transform6">
+     <input semantic="INPUT" source="#genericSource2"/>
+     <input semantic="OUTPUT" source="#genericSource4"/>
+    </sampler>
+    <channel source="#Hips-Matrix-animation-transform6" target="Hips/SID_1"/>
+   </animation>
+  </animation>
+  <animation id="RFBXASC032Thigh-Matrix-animation-transform" name="RFBXASC032Thigh-Matrix-animation-transform">
+   <animation id="keyframedAnimations7">
+    <source id="genericSource8">
+     <float_array id="RFBXASC032Thigh-Matrix-animation-transform9-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Thigh-Matrix-animation-transform9-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource10">
+     <float_array id="RFBXASC032Thigh-Matrix-animation-transform11-array" count="256">-0.814444 0.58006 -0.014572 1.35792 0.562063 0.794915 0.228464 -1e-05 0.144106 0.17788 -0.973443 -8.38851 0 0 0 1 -0.948943 0.314686 0.0219 1.03704 0.314841 0.940532 0.127577 -5e-06 0.019549 0.127959 -0.991587 -8.43378 0 0 0 1 -0.997244 0.064818 0.036098 0.491587 0.065443 0.997721 0.016431 -6e-06 -0.034951 0.018748 -0.999213 -8.48303 0 0 0 1 -0.999819 0.01435 0.012476 -0.101949 0.013132 0.995598 -0.092804 -8e-06 -0.013753 -0.092623 -0.995606 -8.49668 0 0 0 1 -0.999975 -0.000391 0.007027 -0.563774 -0.001479 0.987822 -0.155579 -8e-06 -0.00688 -0.155586 -0.987799 -8.47899 0 0 0 1 -0.976031 0.217583 0.004582 -0.905019 0.213841 0.962733 -0.165585 -8e-06 -0.040439 -0.160636 -0.986185 -8.44937 0 0 0 1 -0.878469 0.477717 0.008886 -1.20091 0.470002 0.867331 -0.163814 -8e-06 -0.085964 -0.13973 -0.986451 -8.41239 0 0 0 1 -0.662295 0.747778 0.046831 -1.37657 0.736519 0.661244 -0.142462 -8e-06 -0.137497 -0.05986 -0.988692 -8.38547 0 0 0 1 -0.2712 0.954751 0.122072 -1.3579 0.953061 0.284105 -0.104686 -6e-06 -0.13463 0.087951 -0.986985 -8.38852 0 0 0 1 0.14027 0.974938 0.172685 -1.07163 0.988482 -0.127886 -0.08092 -1.1e-05 -0.056808 0.182047 -0.981648 -8.42956 0 0 0 1 0.259701 0.956285 0.134442 -0.56977 0.965591 -0.259134 -0.022009 -5e-06 0.013791 0.135532 -0.990677 -8.47829 0 0 0 1 0.087598 0.992125 0.089521 0.019349 0.993712 -0.09332 0.061863 -1e-05 0.06973 0.083539 -0.994062 -8.49743 0 0 0 1 -0.238718 0.968952 0.064393 0.563797 0.964983 0.22927 0.127448 -8e-06 0.108727 0.092562 -0.989753 -8.47899 0 0 0 1 -0.489872 0.871588 0.01897 0.897808 0.857632 0.477894 0.189958 -7e-06 0.156499 0.109325 -0.981609 -8.44992 0 0 0 1 -0.617042 0.786797 -0.014507 1.24994 0.764656 0.60383 0.225147 -4e-06 0.185904 0.127832 -0.974217 -8.40518 0 0 0 1 -0.781803 0.623316 -0.01616 1.35845 0.603979 0.763479 0.228713 -9e-06 0.154898 0.169048 -0.97336 -8.3885 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Thigh-Matrix-animation-transform11-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="RFBXASC032Thigh-Matrix-animation-transform12">
+     <input semantic="INPUT" source="#genericSource8"/>
+     <input semantic="OUTPUT" source="#genericSource10"/>
+    </sampler>
+    <channel source="#RFBXASC032Thigh-Matrix-animation-transform12" target="RFBXASC032Thigh/SID_2"/>
+   </animation>
+  </animation>
+  <animation id="RFBXASC032Calf-Matrix-animation-transform" name="RFBXASC032Calf-Matrix-animation-transform">
+   <animation id="keyframedAnimations13">
+    <source id="genericSource14">
+     <float_array id="RFBXASC032Calf-Matrix-animation-transform15-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Calf-Matrix-animation-transform15-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource16">
+     <float_array id="RFBXASC032Calf-Matrix-animation-transform17-array" count="256">0.739414 0.673251 -0 42.0628 -0.673251 0.739414 -0 -4e-06 0 0 1 1e-06 0 0 0 1 0.795765 0.605606 0 42.0628 -0.605606 0.795764 -0 -4e-06 -0 -0 1 1e-06 0 0 0 1 0.892658 0.450735 0 42.0628 -0.450734 0.892658 -0 -3e-06 -0 -0 1 0 0 0 0 1 0.816026 0.578016 -0 42.0628 -0.578016 0.816026 0 -4e-06 0 0 1 1e-06 0 0 0 1 0.724241 0.689546 -0 42.0628 -0.689546 0.724241 -0 0 -0 0 1 -1e-06 0 0 0 1 0.360052 0.932932 -0 42.0628 -0.932932 0.360052 -0 0 -0 0 1 -1e-06 0 0 0 1 -0.109401 0.993998 0 42.0628 -0.993998 -0.109401 0 1e-06 0 -0 1 -1e-06 0 0 0 1 -0.526834 0.849968 0 42.0628 -0.849968 -0.526834 0 3e-06 0 0 1 1e-06 0 0 0 1 -0.727067 0.686566 0 42.0628 -0.686566 -0.727067 0 -0 0 -0 1 -2e-06 0 0 0 1 -0.747561 0.664193 0 42.0628 -0.664193 -0.747561 0 2e-06 0 -0 1 0 0 0 0 1 -0.544783 0.838577 0 42.0628 -0.838577 -0.544783 0 0 0 0 1 -0 0 0 0 1 -0.104827 0.994491 0 42.0628 -0.994491 -0.104827 -0 -3e-06 -0 -0 1 -0 0 0 0 1 0.6024 0.798194 -0 42.0628 -0.798194 0.6024 -0 1.5e-05 -0 0 1 2e-06 0 0 0 1 0.685713 0.727872 -0 42.0628 -0.727872 0.685713 0 5e-06 0 0 1 1e-06 0 0 0 1 0.641285 0.767303 0 42.0628 -0.767303 0.641285 0 2e-06 0 -0 1 -2e-06 0 0 0 1 0.712442 0.701731 -0 42.0628 -0.701731 0.712442 -0 -0 0 0 1 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Calf-Matrix-animation-transform17-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="RFBXASC032Calf-Matrix-animation-transform18">
+     <input semantic="INPUT" source="#genericSource14"/>
+     <input semantic="OUTPUT" source="#genericSource16"/>
+    </sampler>
+    <channel source="#RFBXASC032Calf-Matrix-animation-transform18" target="RFBXASC032Calf/SID_3"/>
+   </animation>
+  </animation>
+  <animation id="RFBXASC032Foot-Matrix-animation-transform" name="RFBXASC032Foot-Matrix-animation-transform">
+   <animation id="keyframedAnimations19">
+    <source id="genericSource20">
+     <float_array id="RFBXASC032Foot-Matrix-animation-transform21-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Foot-Matrix-animation-transform21-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource22">
+     <float_array id="RFBXASC032Foot-Matrix-animation-transform23-array" count="256">0.926288 -0.36993 -0.071711 48.6025 0.375276 0.922833 0.086875 2e-06 0.03404 -0.107383 0.993635 0 0 0 0 1 0.976857 -0.212229 -0.026622 48.6025 0.213888 0.969964 0.115851 1e-06 0.001236 -0.118864 0.99291 -2e-06 0 0 0 1 0.942911 0.33137 0.033364 48.6025 -0.332965 0.940141 0.072593 8e-06 -0.007312 -0.079557 0.996803 -0 0 0 0 1 0.851269 0.513522 0.107872 48.6025 -0.513552 0.857546 -0.029652 4e-06 -0.107732 -0.030156 0.993722 0 0 0 0 1 0.758813 0.626245 0.178941 48.6025 -0.621584 0.778367 -0.088194 -8e-06 -0.194513 -0.044304 0.979899 4e-06 0 0 0 1 0.749098 0.623782 0.223046 48.6025 -0.629777 0.775011 -0.052337 -4e-06 -0.20551 -0.101264 0.973402 1e-06 0 0 0 1 0.748929 0.616055 0.244092 48.6025 -0.64113 0.766769 0.03191 5e-06 -0.167504 -0.180393 0.969227 1e-06 0 0 0 1 0.757168 0.595126 0.269299 48.6025 -0.643567 0.750249 0.151486 -1e-06 -0.111888 -0.288012 0.951068 -1e-06 0 0 0 1 0.685794 0.634216 0.357013 48.6025 -0.719767 0.663687 0.203608 -0 -0.107813 -0.396599 0.911639 2e-06 0 0 0 1 0.657923 0.618787 0.429232 48.6025 -0.725399 0.673845 0.140461 3e-06 -0.20232 -0.403778 0.892205 -3e-06 0 0 0 1 0.795799 0.464947 0.38798 48.6025 -0.514768 0.856837 0.029043 -3e-06 -0.318932 -0.222832 0.92121 1e-06 0 0 0 1 0.943088 0.164432 0.289045 48.6025 -0.156239 0.986383 -0.051363 6e-06 -0.293555 0.00328 0.955936 0 0 0 0 1 0.985029 -0.03976 0.167739 48.6025 0.05818 0.992623 -0.106372 -1e-05 -0.162272 0.114539 0.980076 -1e-06 0 0 0 1 0.985453 -0.149789 0.080278 48.6025 0.15283 0.987696 -0.033146 -1e-05 -0.074325 0.044932 0.996221 0 0 0 0 1 0.953583 -0.301025 -0.007877 48.6025 0.301065 0.95252 0.045447 5e-06 -0.006178 -0.045709 0.998936 1e-06 0 0 0 1 0.928242 -0.366377 -0.064299 48.6025 0.370822 0.925042 0.082396 0 0.029291 -0.100327 0.994523 1e-06 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Foot-Matrix-animation-transform23-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="RFBXASC032Foot-Matrix-animation-transform24">
+     <input semantic="INPUT" source="#genericSource20"/>
+     <input semantic="OUTPUT" source="#genericSource22"/>
+    </sampler>
+    <channel source="#RFBXASC032Foot-Matrix-animation-transform24" target="RFBXASC032Foot/SID_4"/>
+   </animation>
+  </animation>
+  <animation id="RFBXASC032Toe0-Matrix-animation-transform" name="RFBXASC032Toe0-Matrix-animation-transform">
+   <animation id="keyframedAnimations25">
+    <source id="genericSource26">
+     <float_array id="RFBXASC032Toe0-Matrix-animation-transform27-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Toe0-Matrix-animation-transform27-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource28">
+     <float_array id="RFBXASC032Toe0-Matrix-animation-transform29-array" count="256">0 -1 -0 9.83639 1 0 -0 12.8418 0 -0 1 0 0 0 0 1 -0.325168 -0.945604 0.00997 9.83639 0.942647 -0.323274 0.083134 12.8418 -0.075389 0.036431 0.996489 1e-06 0 0 0 1 -0.708542 -0.702609 -0.065639 9.83638 0.687261 -0.708174 0.161743 12.8418 -0.160126 0.069491 0.984647 1e-06 0 0 0 1 -0.310712 -0.950231 -0.022783 9.8364 0.944979 -0.311397 0.100235 12.8418 -0.102341 0.009615 0.994703 2e-06 0 0 0 1 0 -1 0 9.83638 1 0 0 12.8418 -0 0 1 -2e-06 0 0 0 1 -0.16166 -0.986797 -0.009923 9.83639 0.986733 -0.161786 0.013566 12.8418 -0.014993 -0.007598 0.999859 2e-06 0 0 0 1 -0.217018 -0.97568 -0.030861 9.8364 0.975795 -0.2177 0.020748 12.8418 -0.026962 -0.025612 0.999308 -0 0 0 0 1 -0.164755 -0.985705 -0.035231 9.83639 0.986077 -0.165422 0.016942 12.8418 -0.022528 -0.031949 0.999236 -0 0 0 0 1 0 -1 -0 9.83638 1 -0 0 12.8418 -0 -0 1 -1e-06 0 0 0 1 0.049239 -0.998508 0.023616 9.83639 0.998639 0.048812 -0.018354 12.8418 0.017174 0.024488 0.999552 -1e-06 0 0 0 1 -0.150613 -0.988587 0.003351 9.83638 0.988537 -0.15064 -0.010116 12.8418 0.010506 0.001789 0.999943 -2e-06 0 0 0 1 -0.281258 -0.959444 -0.018989 9.83638 0.959578 -0.281397 0.00504 12.8418 -0.010179 -0.016804 0.999807 -1e-06 0 0 0 1 0 -1 -0 9.83639 1 0 0 12.8418 -0 -0 1 1e-06 0 0 0 1 0.011307 -0.999792 0.016982 9.83639 0.999897 0.011154 -0.009047 12.8418 0.008856 0.017083 0.999815 1e-06 0 0 0 1 0.030423 -0.999532 -0.003109 9.83638 0.999533 0.030432 -0.002702 12.8418 0.002796 -0.003026 0.999992 -1e-06 0 0 0 1 0.008337 -0.999961 -0.002851 9.83639 0.999965 0.008337 0.000175 12.8418 -0.000151 -0.002853 0.999996 0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#RFBXASC032Toe0-Matrix-animation-transform29-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="RFBXASC032Toe0-Matrix-animation-transform30">
+     <input semantic="INPUT" source="#genericSource26"/>
+     <input semantic="OUTPUT" source="#genericSource28"/>
+    </sampler>
+    <channel source="#RFBXASC032Toe0-Matrix-animation-transform30" target="RFBXASC032Toe0/SID_5"/>
+   </animation>
+  </animation>
+  <animation id="LFBXASC032Thigh-Matrix-animation-transform" name="LFBXASC032Thigh-Matrix-animation-transform">
+   <animation id="keyframedAnimations31">
+    <source id="genericSource32">
+     <float_array id="LFBXASC032Thigh-Matrix-animation-transform33-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Thigh-Matrix-animation-transform33-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource34">
+     <float_array id="LFBXASC032Thigh-Matrix-animation-transform35-array" count="256">-0.583709 0.806238 0.096249 -1.35792 0.802458 0.554723 0.219871 1.5e-05 0.123876 0.205577 -0.970769 8.38852 0 0 0 1 0.085761 0.994538 0.059484 -1.03703 0.982832 -0.094239 0.158622 1.5e-05 0.163361 0.044859 -0.985546 8.43379 0 0 0 1 0.253698 0.967086 0.019526 -0.491574 0.964112 -0.254448 0.075799 1.5e-05 0.078273 -0.000405 -0.996932 8.48303 0 0 0 1 0.060328 0.99632 -0.060878 0.101951 0.994926 -0.064939 -0.076849 1.9e-05 -0.08052 -0.055933 -0.995182 8.49668 0 0 0 1 -0.239121 0.961636 -0.13445 0.563774 0.954844 0.207734 -0.212413 1.5e-05 -0.176334 -0.179171 -0.967886 8.47899 0 0 0 1 -0.478853 0.873382 -0.088902 0.905026 0.856309 0.442359 -0.26656 1.2e-05 -0.193482 -0.203771 -0.959709 8.44937 0 0 0 1 -0.632771 0.773981 -0.023551 1.20091 0.748303 0.603391 -0.275614 1.5e-05 -0.19911 -0.192023 -0.96098 8.41239 0 0 0 1 -0.715647 0.698136 0.021353 1.38008 0.671195 0.695846 -0.255531 1.5e-05 -0.193254 -0.168538 -0.966565 8.3849 0 0 0 1 -0.901519 0.431379 0.034282 1.30818 0.41928 0.89034 -0.17748 1.5e-05 -0.107084 -0.145627 -0.983527 8.39664 0 0 0 1 -0.994328 0.104993 0.017 1.07514 0.103176 0.990975 -0.085574 1.5e-05 -0.025831 -0.083334 -0.996187 8.42899 0 0 0 1 -0.999898 0.01095 0.009197 0.56976 0.011018 0.999912 0.007439 1.5e-05 -0.009115 0.00754 -0.99993 8.47829 0 0 0 1 -0.999336 0.028637 0.0225 -0.019341 0.030853 0.993967 0.105255 1.5e-05 -0.01935 0.105879 -0.994191 8.49743 0 0 0 1 -0.999859 -0.007503 0.01505 -0.563805 -0.004411 0.980627 0.195836 1.5e-05 -0.016228 0.195741 -0.980522 8.47899 0 0 0 1 -0.952971 0.3015 0.030726 -0.897807 0.300813 0.928698 0.21687 1.5e-05 0.036851 0.215914 -0.975717 8.44992 0 0 0 1 -0.864263 0.499333 0.06096 -1.24994 0.498686 0.834557 0.234152 1.6e-05 0.066045 0.232769 -0.970287 8.40518 0 0 0 1 -0.649909 0.754458 0.091706 -1.35846 0.751604 0.620125 0.224802 1.6e-05 0.112734 0.215027 -0.97008 8.3885 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Thigh-Matrix-animation-transform35-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="LFBXASC032Thigh-Matrix-animation-transform36">
+     <input semantic="INPUT" source="#genericSource32"/>
+     <input semantic="OUTPUT" source="#genericSource34"/>
+    </sampler>
+    <channel source="#LFBXASC032Thigh-Matrix-animation-transform36" target="LFBXASC032Thigh/SID_6"/>
+   </animation>
+  </animation>
+  <animation id="LFBXASC032Calf-Matrix-animation-transform" name="LFBXASC032Calf-Matrix-animation-transform">
+   <animation id="keyframedAnimations37">
+    <source id="genericSource38">
+     <float_array id="LFBXASC032Calf-Matrix-animation-transform39-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Calf-Matrix-animation-transform39-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource40">
+     <float_array id="LFBXASC032Calf-Matrix-animation-transform41-array" count="256">-0.757041 0.653368 -0 42.0628 -0.653368 -0.757041 -0 0 -0 -0 1 -0 0 0 0 1 -0.790931 0.611905 -0 42.0628 -0.611905 -0.790931 0 -2e-06 -0 0 1 -0 0 0 0 1 -0.465002 0.88531 0 42.0628 -0.88531 -0.465002 -0 -1e-05 0 -0 1 -0 0 0 0 1 0.058595 0.998282 -0 42.0628 -0.998282 0.058595 0 1.2e-05 0 0 1 1e-06 0 0 0 1 0.595301 0.803502 -0 42.0628 -0.803502 0.595301 -0 0 -0 0 1 1e-06 0 0 0 1 0.789713 0.613476 0 42.0628 -0.613476 0.789713 0 -8e-06 0 -0 1 1e-06 0 0 0 1 0.816514 0.577326 -0 42.0628 -0.577326 0.816514 -0 1e-06 -0 0 1 1e-06 0 0 0 1 0.77097 0.636872 0 42.0628 -0.636872 0.77097 -0 -2e-06 -0 0 1 1e-06 0 0 0 1 0.841619 0.540072 0 42.0628 -0.540072 0.841619 -0 -3e-06 -0 0 1 2e-06 0 0 0 1 0.932078 0.362257 0 42.0628 -0.362257 0.932078 0 0 -0 -0 1 1e-06 0 0 0 1 0.941393 0.33731 0 42.0627 -0.33731 0.941393 0 2e-06 -0 -0 1 -0 0 0 0 1 0.861977 0.506947 -0 42.0628 -0.506947 0.861977 0 4e-06 0 -0 1 -1e-06 0 0 0 1 0.722877 0.690977 0 42.0628 -0.690977 0.722877 0 -4e-06 0 -0 1 -2e-06 0 0 0 1 0.157793 0.987472 0 42.0628 -0.987472 0.157793 0 -0 0 -0 1 3e-06 0 0 0 1 -0.371851 0.928292 0 42.0628 -0.928292 -0.371851 -0 -2e-06 -0 -0 1 1e-06 0 0 0 1 -0.708048 0.706165 -0 42.0628 -0.706164 -0.708048 -0 -1e-06 -0 -0 1 -0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Calf-Matrix-animation-transform41-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="LFBXASC032Calf-Matrix-animation-transform42">
+     <input semantic="INPUT" source="#genericSource38"/>
+     <input semantic="OUTPUT" source="#genericSource40"/>
+    </sampler>
+    <channel source="#LFBXASC032Calf-Matrix-animation-transform42" target="LFBXASC032Calf/SID_7"/>
+   </animation>
+  </animation>
+  <animation id="LFBXASC032Foot-Matrix-animation-transform" name="LFBXASC032Foot-Matrix-animation-transform">
+   <animation id="keyframedAnimations43">
+    <source id="genericSource44">
+     <float_array id="LFBXASC032Foot-Matrix-animation-transform45-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Foot-Matrix-animation-transform45-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource46">
+     <float_array id="LFBXASC032Foot-Matrix-animation-transform47-array" count="256">0.726237 0.618934 -0.299164 48.6025 -0.668642 0.737061 -0.098274 8e-06 0.159677 0.271404 0.949127 2e-06 0 0 0 1 0.619269 0.722543 -0.307308 48.6025 -0.754034 0.656403 0.023852 1e-06 0.218952 0.21695 0.951311 1e-06 0 0 0 1 0.787011 0.577306 -0.217557 48.6025 -0.565636 0.816002 0.119147 -1.6e-05 0.246311 0.029288 0.968748 1e-06 0 0 0 1 0.966528 0.229581 -0.114526 48.6025 -0.20595 0.960472 0.18729 1e-06 0.152998 -0.157435 0.975605 0 0 0 0 1 0.998985 -0.042873 0.013799 48.6025 0.038264 0.969501 0.242081 1.1e-05 -0.023757 -0.241308 0.970158 1e-06 0 0 0 1 0.989294 -0.11527 0.089496 48.6025 0.095655 0.975348 0.198862 1e-05 -0.110213 -0.188172 0.975933 -2e-06 0 0 0 1 0.978611 -0.170073 0.115738 48.6025 0.156745 0.980812 0.115927 -6e-06 -0.133234 -0.095306 0.986491 -1e-06 0 0 0 1 0.958632 -0.254551 0.127394 48.6025 0.25056 0.966974 0.046702 -1e-06 -0.135075 -0.012851 0.990752 1e-06 0 0 0 1 0.902294 -0.417714 0.106684 48.6025 0.419294 0.907813 0.008252 -6e-06 -0.100296 0.037286 0.994259 -1e-06 0 0 0 1 0.939716 -0.336637 0.060081 48.6025 0.338653 0.940523 -0.027018 -1.3e-05 -0.047412 0.045736 0.997828 -2e-06 0 0 0 1 0.96616 0.256366 -0.028498 48.6025 -0.256433 0.966561 0.001318 -8e-06 0.027883 0.006034 0.999593 1e-06 0 0 0 1 0.788649 0.609211 -0.083027 48.6025 -0.60361 0.792844 0.083984 4e-06 0.116992 -0.016118 0.993002 0 0 0 0 1 0.760702 0.622344 -0.184447 48.6025 -0.614035 0.782076 0.106389 -8e-06 0.210462 0.032326 0.977067 0 0 0 0 1 0.761665 0.605479 -0.230787 48.6025 -0.616311 0.786912 0.030488 1e-06 0.200069 0.119015 0.972527 -0 0 0 0 1 0.758197 0.594281 -0.268269 48.6025 -0.628621 0.77549 -0.058746 -3e-06 0.173128 0.21318 0.961551 -1e-06 0 0 0 1 0.735461 0.61059 -0.293728 48.6025 -0.658422 0.746357 -0.097116 4e-06 0.159928 0.264822 0.950943 1e-06 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Foot-Matrix-animation-transform47-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="LFBXASC032Foot-Matrix-animation-transform48">
+     <input semantic="INPUT" source="#genericSource44"/>
+     <input semantic="OUTPUT" source="#genericSource46"/>
+    </sampler>
+    <channel source="#LFBXASC032Foot-Matrix-animation-transform48" target="LFBXASC032Foot/SID_8"/>
+   </animation>
+  </animation>
+  <animation id="LFBXASC032Toe0-Matrix-animation-transform" name="LFBXASC032Toe0-Matrix-animation-transform">
+   <animation id="keyframedAnimations49">
+    <source id="genericSource50">
+     <float_array id="LFBXASC032Toe0-Matrix-animation-transform51-array" count="16">0 0.041667 0.083333 0.125 0.166667 0.208333 0.25 0.291667 0.333333 0.375 0.416667 0.458333 0.5 0.541667 0.583333 0.625 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Toe0-Matrix-animation-transform51-array" count="16" stride="1">
+       <param name="TIME" type="float"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <source id="genericSource52">
+     <float_array id="LFBXASC032Toe0-Matrix-animation-transform53-array" count="256">0 -1 -0 9.83639 1 0 -0 12.8418 0 -0 1 -1e-06 0 0 0 1 -0.089454 -0.995941 -0.009964 9.83639 0.995638 -0.089684 0.025726 12.8418 -0.026516 -0.007619 0.999619 -0 0 0 0 1 -0.130803 -0.991407 0.001584 9.83638 0.990482 -0.130612 0.043419 12.8418 -0.042839 0.007249 0.999056 0 0 0 0 1 0.059961 -0.998164 -0.008573 9.83639 0.997817 0.059698 0.028229 12.8418 -0.027665 -0.010247 0.999565 -1e-06 0 0 0 1 0 -1 -0 9.83639 1 0 0 12.8418 -0 -0 1 -2e-06 0 0 0 1 0.104087 -0.994325 -0.021977 9.83638 0.994458 0.103722 0.017184 12.8418 -0.014807 -0.023644 0.999611 1e-06 0 0 0 1 0.087854 -0.995891 -0.021985 9.83639 0.995486 0.08698 0.037964 12.8418 -0.035896 -0.025221 0.999037 -0 0 0 0 1 0.043848 -0.998936 -0.014271 9.83638 0.997981 0.04314 0.04661 12.8418 -0.045944 -0.016286 0.998811 -0 0 0 0 1 0.08657 -0.996236 -0.004409 9.83638 0.996244 0.086561 0.002306 12.8418 -0.001916 -0.004592 0.999988 0 0 0 0 1 -0.110326 -0.993857 0.008744 9.83639 0.992875 -0.110607 -0.044331 12.8418 0.045025 0.003791 0.998979 1e-06 0 0 0 1 -0.446552 -0.89448 0.022272 9.83639 0.893658 -0.447099 -0.038445 12.8418 0.044346 0.002736 0.999012 -0 0 0 0 1 -0.079099 -0.996581 0.023867 9.83638 0.996866 -0.079051 0.002944 12.8418 -0.001048 0.024025 0.999711 -1e-06 0 0 0 1 0 -1 0 9.8364 1 0 0 12.8418 -0 0 1 -6e-06 0 0 0 1 -0.134925 -0.990699 -0.017645 9.83638 0.990791 -0.135098 0.008983 12.8418 -0.011283 -0.016271 0.999804 0 0 0 0 1 -0.127263 -0.99174 0.015966 9.83638 0.991857 -0.127326 -0.002964 12.8418 0.004972 0.015459 0.999868 1e-06 0 0 0 1 -0.024997 -0.999663 0.006948 9.83639 0.999685 -0.025012 -0.002135 12.8418 0.002308 0.006892 0.999973 -0 0 0 0 1 </float_array>
+     <technique_common>
+      <accessor source="#LFBXASC032Toe0-Matrix-animation-transform53-array" count="16" stride="16">
+       <param name="TRANSFORM" type="float4x4"/>
+      </accessor>
+     </technique_common>
+    </source>
+    <sampler id="LFBXASC032Toe0-Matrix-animation-transform54">
+     <input semantic="INPUT" source="#genericSource50"/>
+     <input semantic="OUTPUT" source="#genericSource52"/>
+    </sampler>
+    <channel source="#LFBXASC032Toe0-Matrix-animation-transform54" target="LFBXASC032Toe0/SID_9"/>
+   </animation>
+  </animation>
+ </library_animations>
+ <library_visual_scenes>
+  <visual_scene id="scene55">
+   <node id="ROOT" name="ROOT" type="JOINT">
+    <node id="Hips" name="Hips" type="JOINT">
+     <matrix sid="SID_1">-0.039176 -0.277267 0.959994 0.00012 0.965451 -0.2582 -0.035175 91.48206 0.257624 0.925449 0.277802 -4.045258 0 0 0 1 </matrix>
+     <node id="RFBXASC032Thigh" name="RFBXASC032Thigh" type="JOINT">
+      <matrix sid="SID_2">-0.814444 0.58006 -0.014572 1.357918 0.562063 0.794915 0.228464 -1e-05 0.144106 0.17788 -0.973443 -8.388514 0 0 0 1 </matrix>
+      <node id="RFBXASC032Calf" name="RFBXASC032Calf" type="JOINT">
+       <matrix sid="SID_3">0.739414 0.673251 0 42.06276 -0.673251 0.739414 -0 -4e-06 0 0 1 1e-06 0 0 0 1 </matrix>
+       <node id="RFBXASC032Foot" name="RFBXASC032Foot" type="JOINT">
+        <matrix sid="SID_4">0.926288 -0.36993 -0.071711 48.60252 0.375276 0.922833 0.086875 2e-06 0.03404 -0.107383 0.993635 0 0 0 0 1 </matrix>
+        <node id="RFBXASC032Toe0" name="RFBXASC032Toe0" type="JOINT">
+         <matrix sid="SID_5">0 -1 0 9.83639 1 0 0 12.84184 0 0 1 0 0 0 0 1 </matrix>
+        </node>
+       </node>
+      </node>
+     </node>
+     <node id="LFBXASC032Thigh" name="LFBXASC032Thigh" type="JOINT">
+      <matrix sid="SID_6">-0.583709 0.806238 0.096249 -1.357918 0.802458 0.554723 0.219871 1.5e-05 0.123876 0.205577 -0.970769 8.388515 0 0 0 1 </matrix>
+      <node id="LFBXASC032Calf" name="LFBXASC032Calf" type="JOINT">
+       <matrix sid="SID_7">-0.757041 0.653368 -0 42.06278 -0.653368 -0.757041 0 0 -0 0 1 -0 0 0 0 1 </matrix>
+       <node id="LFBXASC032Foot" name="LFBXASC032Foot" type="JOINT">
+        <matrix sid="SID_8">0.726237 0.618934 -0.299164 48.60252 -0.668642 0.737061 -0.098274 8e-06 0.159677 0.271404 0.949127 2e-06 0 0 0 1 </matrix>
+        <node id="LFBXASC032Toe0" name="LFBXASC032Toe0" type="JOINT">
+         <matrix sid="SID_9">0 -1 -0 9.836388 1 0 0 12.84183 0 -0 1 -1e-06 0 0 0 1 </matrix>
+        </node>
+       </node>
+      </node>
+     </node>
+    </node>
+   </node>
+   <node id="Origin" name="Origin">
+    <matrix>1 0 0 0 0 0 1 0 0 -1 0 0 0 0 0 1 </matrix>
+   </node>
+  </visual_scene>
+ </library_visual_scenes>
+ <scene>
+  <instance_visual_scene url="#scene55"/>
+ </scene>
+</COLLADA>
