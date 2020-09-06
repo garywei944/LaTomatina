@@ -1,4 +1,4 @@
 # LaTomatina
 
-## Contributo
+## Contributor
 * [Gary Wei](https://github.com/garywei944)
